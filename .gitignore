@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ML / model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+
+# Hugging Face / model caches
+.cache/
+.cache/huggingface/
+huggingface_cache/
+
+# Data / generated outputs
+data/
+outputs/
+output/
+results/
+tmp/
+temp/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / misc
+*.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded/demo-generated images
+data/samples/current_upload.png
+
+# Virtual environment
+.venv/
